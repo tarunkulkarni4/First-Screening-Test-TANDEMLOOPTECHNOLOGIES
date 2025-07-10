@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
-public class OddNumberSeries {
+public class Program2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a: ");
         int a = sc.nextInt();
 
-        int limit = (a % 2 == 0) ? a - 1 : a;
-
-        for (int i = 0; i < limit; i++) {
-            System.out.print((2 * i + 1));
-            if (i != limit - 1) {
+        int num = 1;
+        for (int i = 0; i < a; i++) {
+            System.out.print(num);
+            if (i != a - 1) {
                 System.out.print(", ");
             }
+            num += 2;
         }
 
         sc.close();

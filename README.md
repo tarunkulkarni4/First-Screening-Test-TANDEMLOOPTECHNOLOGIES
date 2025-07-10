@@ -1,6 +1,6 @@
  Tarun Kulkarni – 
  Programs written in java language
- Java Program Explanations
+ .Java Program Explanations
  
 ✅ Program-1: Basic Calculator Using Class
 This program performs basic arithmetic operations like addition, subtraction, multiplication, and division using a class structure.
